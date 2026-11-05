@@ -1,0 +1,15 @@
+# Datos: nunca van a Git
+*.csv
+*.parquet
+*.xlsx
+*.json
+data/
+
+# Secretos
+.env
+*.token
+
+# Archivos del sistema y de Python
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
